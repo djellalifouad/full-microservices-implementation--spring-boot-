@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ms-Hotel/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-reservation/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

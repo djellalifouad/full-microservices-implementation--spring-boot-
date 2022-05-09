@@ -1,0 +1,37 @@
+server:
+  port: 7777
+
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: TRACE
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8887/eureka
+spring:
+  application:
+    name: ms-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: route1
+          predicates:
+            - Path=/e-tourism/hotel/**
+          filters:
+            - RewritePath=/e-tourism/hotel/(?<s>.*), /${s}
+
+          uri: lb://ms-hotel
+
+        - id: route2
+          predicates:
+              - Path=/e-tourism/reservation/**
+          filters:
+              - RewritePath=/e-tourism/reservation/(?<s>.*), /${s}
+
+          uri: lb://ms-reservation

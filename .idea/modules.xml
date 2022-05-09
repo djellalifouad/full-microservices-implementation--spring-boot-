@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ms-Hotel/ms-Hotel.iml" filepath="$PROJECT_DIR$/ms-Hotel/ms-Hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-gateway/ms-gateway.iml" filepath="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-registry/ms-registry.iml" filepath="$PROJECT_DIR$/ms-registry/ms-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-reservation/ms-reservation.iml" filepath="$PROJECT_DIR$/ms-reservation/ms-reservation.iml" />
+    </modules>
+  </component>
+</project>
